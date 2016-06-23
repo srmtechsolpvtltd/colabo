@@ -1,12 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/***************************************************/
+File Name: Home.php
+Controller: Home
+Description: To manage home page
+Created : Nafees Ahmad
+Created on: 23/6/2016
+Modified on:   
+/*****************************************************/
+
 class Home extends CI_Controller {
 	
 	function __construct() {
         parent::__construct();
      }
-	
+/**** 
+ * Function to view home page of webiste
+ */
 	public function index(){
 		
 		$this->data["title"] = "Colabo - Next-Generation Sales";
