@@ -166,7 +166,7 @@ img.w100{width:auto}
 
  .clearfix{ clear:both;}
  .salesLeader{ clear:both;}
- .salesLeader img{ margin-right:10%;}
+ .salesLeader img{ margin-right:3%;}
  .salesLeader img:last-child {    float: right;    margin: 0;}
  /*-------------------------------*/
 /*  About us css*/
@@ -205,3 +205,47 @@ img.w100{width:auto}
     padding: 10px 16px; border:1px solid #8c8c8c
 }
  
+ /*-------------------------------*/
+/*  Features Page css*/
+/*-------------------------------*/
+.features{ font-size:30px;   padding:0px 0 0px 0; text-align:left; margin:0px; }
+.features h2{ font-size:30px; color:#8c8c8c; padding-bottom:20px;}
+.features p{ font-size:24px; line-height:36px; color:#8c8c8c;margin:0px; font-weight:400;}
+.greybgdrak{background:#c0c0c0;padding:140px 30px; float:right; text-align:center;}
+.featuresPane{ padding:35px 0;clear:both; float:left; width:100%;}
+.mtop30{padding-top:30px;}
+.mtop50{padding-top:50px;}
+#press {margin-top: 50px; width:85%;}
+#press h4 { text-align:left;}
+#press  p { font-size: 20px; line-height:36px;}
+.panel-title{ font-size:24px; font-weight:400;}
+.panel-default{ border:none;box-shadow: none;}
+#press .panel-body{ background:#d1e7f6 url(../images/faq_triangle.png) no-repeat center bottom; padding:20px 20px 30px 20px; font-size:20px;}
+.panel-default > .panel-heading {background-color:none;color: #8c8c8c; font-size:24px;}
+.panel.panel-default{border-bottom:1px solid #d1d1d1; padding:10px 0; background:none;}
+.bordernone{ border:none;}
+.featuresPane_abf{ padding:60px 0; clear:both; float:left; width:100%;}
+.Card{ padding:20px; border:1px solid #d8d8d8; border-radius:5px; box-shadow:0px 1px 1px 0px #d8d8d8; position:relative; margin-bottom:20px; background:#fff;}
+.iconCop{ position:absolute; top:10px; right:15px;}
+.userimg { float:left;border-radius: 50%;height: 90px;width: 90px; margin:0 15px 10px 0}
+.userimg img{ border-radius: 50%;height: 90px;width: 90px;}
+.ulocation {clear: both;font-size:18px; padding:5px 0;}
+.ulocation img{margin-right:15px;}
+.userdet{ float:left;}
+.userdet h4{ font-size:24px; color:#424242; font-weight:500; text-align:left; margin:0px;}
+.userdet h5{font-size:18px; color:#424242; text-align:left; margin:0px;font-weight:300;} 
+.userimg_1 { float:left;margin:0 15px 10px 0}
+
+.userdet1{ float:left;}
+.userdet1 h4{ font-size:18px; color:#333; font-weight:500; text-align:left; margin:0px;}
+.userdet1 h5{font-size:18px; color:#424242; text-align:left; margin:0px;font-weight:300;} 
+.ulocation img{ vertical-align:middle;}
+
+.featuresImg{padding:0px; float:right; text-align:center;}
+.greybg p strong {font-weight: 500;}
+ul.listdata{ padding:25px 0px; margin:0px; width:45%; float:left;}
+ul.listdata li{ float:left; font-size:24px; color:#8c8c8c; width:100%; padding:10px 0px;}
+
+ .crm_compatable{ clear:both; padding:50px 0 25px;}
+ .crm_compatable img{ margin-right:3.3%;}
+ .crm_compatable img:last-child {    float: right;    margin: 0;}

@@ -35,7 +35,7 @@
         <nav role="navigation" class="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="Product.html">Product</a></li>
-            <li><a href="Features.html">Features</a></li>
+            <li><a href="<?php echo base_url('home/features')?>">Features</a></li>
             <li><a href="<?php echo base_url('home/about')?>">Company</a></li>
             <li><a href="Pricing.html">Pricing</a></li>
             <li class="login"><a href="Login.html" class="">Login</a></li>
@@ -46,7 +46,7 @@
   </header>
   <section class="mtop animatedParent">
     <div class="container">
-      <div class="banner">
+      <div class="banner<?php echo $bannerClass?>">
 		<?php echo $headerContents?>
       </div>
       <div class="clearfix"></div>
@@ -66,7 +66,7 @@
   <footer class="footer animatedParent">
     <div class="container pdn-40 animated fadeIn slower go">
       <div class="col-md-8">
-        <div class="foot-header"><a href="index.html"><img src="<?php echo base_url('assets').'/images/logo.png'?>" alt=""/></a></div>
+        <div class="foot-header"><a href="<?php echo base_url()?>"><img src="<?php echo base_url('assets').'/images/logo.png'?>" alt=""/></a></div>
         <div class="foot-links">
           <p>A Platform for the Modern Sales Stack. </p>
         </div>
@@ -74,7 +74,7 @@
           <div class="">
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">PRODUCT</div>
-              <div class="foot-links"> <a href="#-">Overview</a> <a href="#-">Features</a> <a href="#-">Pricing</a> </div>
+              <div class="foot-links"> <a href="#-">Overview</a> <a href="<?php echo base_url('home/features')?>">Features</a> <a href="#-">Pricing</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">COMPANY</div>
@@ -82,7 +82,7 @@
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header"> CONTACT </div>
-              <div class="foot-links"> <a href="#-">Questions</a> <a href="#-">Demos</a> <a href="#-">Support</a> </div>
+              <div class="foot-links"> <a href="<?php echo base_url('home/contactus')?>">Questions</a> <a href="<?php echo base_url('home/demo')?>">Demos</a> <a href="#-">Support</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">RESOURCES</div>
@@ -91,7 +91,14 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-xs-6 col-sm-3"><img src="<?php echo base_url('assets').'/images/footerimg.png'?>" class="w100" alt=""/></div>
+      <div class="col-md-4 col-xs-6 col-sm-3"><img src="<?php echo base_url('assets').'/images/footerimg.png'?>" alt="" usemap="#Map" class="w100"/>
+        <map name="Map">
+          <area shape="rect" coords="213,51,255,103" href="#">
+          <area shape="rect" coords="264,87,310,129" href="#">
+          <area shape="rect" coords="296,138,348,185" href="#">
+          <area shape="rect" coords="304,195,352,244" href="#">
+        </map>
+      </div>
     </div>
   </footer>
   <!--Footer Ends here--> 
