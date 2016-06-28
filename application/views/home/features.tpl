@@ -1,5 +1,5 @@
 <div class="container-fluid side-collapse-container">
-    <section class="whitebg animatedParent" style="background:#f6f6f6;">
+    <section class="whitebg animatedParent" style="background:#fff;">
     <div class="container">
       <div class="features ">
         <div class="col-md-12 animated fadeIn slower go featuresPane">

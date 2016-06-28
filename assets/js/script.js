@@ -20,12 +20,12 @@ $(document).on("scroll", function(){
 		if
       ($(document).scrollTop() > 20){
 		  $("header").addClass("shrink");
-			updateSliderMargin();
+			//updateSliderMargin();
 		}
 		else
 		{
 			$("header").removeClass("shrink");
-			updateSliderMargin();
+			//updateSliderMargin();
 		}
 	});
 

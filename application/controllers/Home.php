@@ -74,5 +74,23 @@ class Home extends CI_Controller {
 		$this->render();
 	}
 	
+	/**** 
+	 * Function to view pricing page of website
+	****/
+	public function pricing(){
+		
+		getTitle('pricing');
+		$this->render();
+	}
+	
+	/**** 
+	 * Function to view case study page of website
+	****/
+	public function casestudy(){
+		
+		getTitle('casestudy');
+		$this->render();
+	}
+	
 	
 }//End Class

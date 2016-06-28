@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{ font-size:50px; font-weight:normal;  padding:10px 0 20px 0;  margin:0px;font-family: 'Roboto Slab', serif;}
-h2{ font-size:26px; font-weight:300; line-height:1.4em; padding:0px 0 30px 0; margin:0px;}
+h2{ font-size:30px; font-weight:400;  padding:0px 0 30px 0;   margin:0px;}
 h4{ font-size:18px; color:#2c363c; font-weight:600; text-align:center; margin:20px 0;}
 .banner{ color:#fff;text-align:center;}
 
@@ -48,12 +48,12 @@ header.shrink .top-fixed{ }
 .navbar{ border-bottom: 0px solid #e5e5e5;min-height: 78px; background:transparent ;}
 .navbar.shrink{ margin-top:0px;}
 .navbar:not(.shrink){ }
-.navbar-inverse .navbar-nav {font-weight:300;}
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{ color:#fff; font-weight:300;}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{ color:#fff;}
 .navbar-inverse .navbar-nav > li > a:focus{ outline:none 0px;}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{ background:none;color:#800000;}
 .navbar-inverse .navbar-nav > li > a{ color: #fff;
-    font-size: 18px;   
+    font-size: 18px;
+    font-weight: 500;
     padding: 5px 20px 8px;}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background:none;color:#fff;}
 .navbar-right{ margin-top:20px;}
@@ -96,9 +96,8 @@ nav ul li:last-child a:hover { background-color: #3b9fed !important;color: #fff;
 /*-------------------------------*/
 .footer{ background:#2888d4; padding:30px 0}  
 .pdn-40{ padding:10px 0px;}
-.foot-links {font-weight:300;}
-.foot-links p{ font-size:22px;color:#fff; transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out; padding:15px 0;}
-.foot-links a{ display: block;color:#fff; transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out; text-decoration: none; font-size: 18px;}
+.foot-links p{ font-size:22px;color:#fff;transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out; padding:15px 0;}
+.foot-links a{ display: block;color:#fff;transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out; text-decoration: none; font-size: 18px;}
 .foot-links a:hover, .foot-links a:focus{ color:#fff; }
 .foot-links img{padding-top: 5px;}
 .foot-header{font-size: 18px;color:#fff; padding-bottom: 20px; font-weight:500;}
@@ -157,19 +156,13 @@ img.w100{width:auto}
 .hbtns{ margin:5px auto 0; width:550px; clear:both;}
 .ec-btn{ float:left; margin-right:20px; width:240px;}
 .tc-btn{ float:left;  width:240px;}
-.ylbg .btn_ylw{ min-width:230px; font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;  color:#ff5b00;background-color: #fff;border:1px solid #fff;margin-top: 25px;}
-.btn_ylw{ min-width:230px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;  display:inline-block; background-color: #ff5b00; border:1px solid #ff5b00; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; width: 100%;}
+.ylbg .btn_ylw{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:300;  color:#ff5b00;background-color: #fff;border:1px solid #fff;margin-top: 25px;}
+.btn_ylw{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:300;  display:inline-block; background-color: #ff5b00; border:1px solid #ff5b00; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; width: 100%;}
 .btn_ylw:hover, .btn_ylw:focus { background-color: #fd6d1d;color: #fff; }
-.btn_white{ min-width:230px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400; display:inline-block; background-color:none; border:1px solid #fff; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center;width: 100%; }
+.btn_white{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:300; display:inline-block; background-color:none; border:1px solid #fff; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center;width: 100%; }
 .btn_white:hover, .btn_white:focus { background-color: #3b9fed;color: #fff; }
-.btn_blue{ min-width:230px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif; font-weight:400; display:inline-block; background-color:#2888d4; border:1px solid #2888d4; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; }
+.btn_blue{font-family:Helvetica Neue,Helvetica,Arial,sans-serif; font-weight:300; display:inline-block; background-color:#2888d4; border:1px solid #2888d4; color: #fff; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; }
 .btn_blue:hover, .btn_blue:focus { background-color: #3b9fed;color: #fff; border:1px solid #3b9fed; }
-
-.btn_blueborder{ min-width:230px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif; font-weight:400; display:inline-block; background-color:#fff; border:1px solid #2888d4; color: #3b9fed; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; }
-.btn_blueborder:hover, .btn_blueborder:focus { background-color: #3b9fed;color: #fff; border:1px solid #3b9fed; }
-
-.btn_ylwborder{ min-width:230px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;  display:inline-block; background-color: #fff; border:1px solid #ff5b00; color: #ff5b00; border-radius:5px; padding:6px 20px; font-size:25px; text-align:center; width: 100%;}
-.btn_ylwborder:hover, .btn_ylwborder:focus { background-color: #fd6d1d;color: #fff; }
 
  .clearfix{ clear:both;}
  .salesLeader{ clear:both;}
@@ -179,7 +172,7 @@ img.w100{width:auto}
 /*  About us css*/
 /*-------------------------------*/
 .aboutus {padding: 250px 0;text-align: left;}
-.aboutus h1 {font-size: 30px;text-align: left; line-height:1.5em; padding: 25px 0 50px;}
+.aboutus h1 {font-size: 30px;text-align: left;}
 .aboutCon{clear:both;}
 .colorBlack{ color:#000 !important;}
 .padnone{ padding:0 !important;}
@@ -256,106 +249,3 @@ ul.listdata li{ float:left; font-size:24px; color:#8c8c8c; width:100%; padding:1
  .crm_compatable{ clear:both; padding:50px 0 25px;}
  .crm_compatable img{ margin-right:3.3%;}
  .crm_compatable img:last-child {    float: right;    margin: 0;}
- 
- 
-.card_exp{ padding:20px; border-radius:5px; position:relative; margin-bottom:20px; background:#cde0ef;}
-.userimg_exp { float:left;border-radius: 50%;height:145px;width: 145px; margin:0 20px 10px 0; background:#fff;}
-.userimg_exp img{ border-radius: 50%;height: 145px;width: 145px;}
-.card_exp .userdet {float: left;width: 70%; font-size:30px;}
-.card_exp .userdet h4 {color:#8c8c8c; font-size:30px;}
-.card_exp .userdet h5 {color:#2888d4 ; font-size:24px; line-height:35px; padding:15px 0px;}
-.readmore{ float:right; color:#2888d4;font-size:24px;}
-.readmore a{  color:#2888d4; text-decoration:underline;}
-.padLNone{ padding-left:0px;} .padrNone{ padding-right:0px;}
-
-
- /*-------------------------------*/
-/*  Case Study Page css*/
-/*-------------------------------*/
-.caseStudy{ padding:100px 0}
-.Case_Study{ font-size:30px;   padding:0px 0 30px 0; text-align:left; margin:0px; }
-.Case_Study h2{ font-size:30px; color:#8c8c8c; padding: 15px 0 25px;}
-.Case_Study p{ font-size:24px; line-height:36px; color:#8c8c8c;margin:0px;  padding:0px 0 20px 0;font-weight:400;}
-
-.Case_StudyPane{ padding:35px 0;clear:both; float:left; width:100%;}
-.Case_StudyPane:nth-child(2) {padding-top: 0;}
-
-
- /*-------------------------------*/
-/*  Checkbox css*/
-/*-------------------------------*/ 
-input[type=checkbox].css-checkbox {
-	position: absolute;
-	z-index: -1000;
-	left: -1000px;
-	overflow: hidden;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	width: 1px;
-	margin: -1px;
-	padding: 0;
-	border: 0;
-}
-input[type=checkbox].css-checkbox + label.css-label {
-	padding-left: 32px;	
-	height: 30px;
-	display: inline-block;
-	line-height: 30px;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	font-size: 16px;
-	color:#333;
-	vertical-align: middle;
-	cursor: pointer;
-}
-input[type=checkbox].css-checkbox:checked + label.css-label {
-	background-position: 0 -30px;
-}
-label.css-label {
-	background-image: url(../images/checkbox.png);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-/*checkbox end*/
- /*-------------------------------*/
-/*  Price Page css*/
-/*-------------------------------*/
-.priceWrap{ padding:50px 0; text-align:left; margin:0px; }
-.priceWrap h2{ font-size:30px; color:#8c8c8c; padding: 25px 0 10px; font-weight:300;}
-.priceWrap p{ font-size:24px; line-height:36px; color:#8c8c8c;margin:0px;  padding:0px 0 20px 0;font-weight:400;}
-
-
-.PrPane{ padding:5px 0;clear:both; float:left; width:100%;}
-.pricingListPane{border-bottom:1px solid #d8d8d8; margin-bottom:20px;}
-.pricingListPane h2{ float:left;width: 70%;}
-.Pricelist {float: right;font-family: 'Roboto Slab', serif;}
-.Pricelist h1{ font-size:40px; margin:0px; padding:0px;}
-.Pricelist h5{ font-size:20px; margin:0px; padding:0px;}
-.pricingListPane {border-bottom: 1px solid #d8d8d8;float: left;width: 100%;}
-h2.font40{ font-size:40px;}
-.stillPane{ clear:both; text-align:center;padding:85px 0;}
-.stillPane h1{ font-size: 30px; margin:0px; padding:10px 0; }
-.stillPane h2{ font-size: 24px; margin:0px; padding:10px 0; }
-.trialuser{ font-size:18px; padding:45px 0 0}
-
-/*27 June 2016*/
-.priceWrap .pricingList{ width:100%; clear:both; float:left;}
-.priceWrap .pricingList ul{margin:0px; padding:0px;}
-.priceWrap .pricingList ul li{width:32.5%; float:left; margin:0 1% 20px 0;}
-.priceWrap .pricingList ul li:last-child{margin-right:0;}
-.priceWrap .pricingList ul li h1 {font-size: 34px; margin: 15px 0; padding: 0; color: #000; text-align: center;}
-.priceWrap .pricingList ul li h1 span {color:#2888d4;}
-.priceWrap .pricingList ul li h1 span small {color:#2888d4;}
-.priceWrap .pricingList ul li h2{margin-bottom:15px; padding:0px; color:#000; text-align: center; margin: 15px 0;}
-.priceWrap .pricingList ul li .priceBox{width:100%; border: solid 1px #2888d4; padding:40px 15px 20px 15px;}
-.priceWrap .pricingList ul li .priceBox p {font-size: 22px;}
-.priceWrap .pricingList ul li .priceBox h3{ font-size:24px; margin-bottom:15px; padding:0px; color:#000;}
-.priceWrap .pricingList ul li .priceBox h4{ font-size:24px; line-height:36px; color:#eae6e6; margin:0px; padding:0px 0 20px 0;font-weight:400; text-align:left;}
-.clrLight {color: #eae6e6 !important;}
-.priceWrap h5{ font-size:18px; line-height:36px; color:#8c8c8c; margin:0px;  padding:0px 0 20px 0;font-weight:400; font-style:italic;}
-.priceWrap .pricingList ul li .ec-btn {width: 100%; margin-top:15px;}
-.priceWrap .pricingList ul li .btn_blue {width: 100%; padding: 2px 20px; font-size: 24px;}

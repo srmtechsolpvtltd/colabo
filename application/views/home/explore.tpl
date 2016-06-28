@@ -1,12 +1,12 @@
 <div class="container-fluid side-collapse-container">
-  <section class="whitebg animatedParent" style="background:#f6f6f6;">
+  <section class="whitebg animatedParent" style="background:#fff;">
     <div class="container">
       <div class="features ">
         <div class="col-md-12 animated fadeIn slower go featuresPane">
           <h2 class="colorBlack">Next-Generation Sales Development and Acceleration</h2>
           <p>The modern sales team depends on more than just dial and smile techniques to find and close opportunities. They are deploying social selling strategies, automated campaigns, email optimization techniques, and advanced reporting. Colabo packages all of the functionality enterprise sales teams need into one platform, allowing your team to reach prospects with the right message at the right time.</p>
           <div class="mtop50  animated fadeIn slower go">
-            <div class="clearfix animated fadeIn slower go mb30 pull-left"><a href="#-" class="btn_ylw">Demo Colabo</a></div>
+            <div class="clearfix animated fadeIn slower go mb30 pull-left"><a href="<?php echo base_url('home/demo')?>" class="btn_ylw">Demo Colabo</a></div>
           </div>
         </div>
         <div class="col-md-12 animated fadeIn slower go featuresPane">
