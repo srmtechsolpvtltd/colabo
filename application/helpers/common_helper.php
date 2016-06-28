@@ -244,6 +244,40 @@ out the contact form. </h2>
         
         break;
         
+        case 'pricing':
+		
+		$CI->data["title"] = "Colabo - Next-Generation Sales";
+		
+		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
+		
+		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["bannerClass"] = '';
+		
+		$CI->data['headerContents'] = '<div class="aboutus caseStudy">
+          <h1 class="animated fadeIn slower go">Colabo Pricing</h1>
+        </div>';
+        
+        break;
+        
+        case 'casestudy':
+		
+		$CI->data["title"] = "Colabo - Next-Generation Sales";
+		
+		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
+		
+		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["bannerClass"] = '';
+		
+		$CI->data['headerContents'] = '<div class="aboutus caseStudy">
+          <h1 class="animated fadeIn slower go">Case Studies</h1>
+        </div>';
+        
+        break;
+        
         default:
         
         $CI->data["title"] = "Colabo - Next-Generation Sales";
