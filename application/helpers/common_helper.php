@@ -85,7 +85,11 @@ works? Schedule a demo with one
 of our customer success representitives.
 We will be in-touch shortly after filling
 out the contact form. </h2>
-        </div>
+        </div>';
+        $CI->data['headerContents'] .= '<form method="post" name="copyOfWebsite:ContactUsForm-1466538923516" action="https://s1905848637.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector(form#form21 input[type=submit]);if(s){s.disabled=true;}}},100);return true;" id="form21" class="elq-form" >';
+		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538923516" type="hidden" name="elqFormName"  />
+		<input value="1905848637" type="hidden" name="elqSiteId"  />
+		<input name="elqCampaignId" type="hidden"  />
         <div class="col-md-6 pull-right">
           <div class="col-md-12">
             <div class="form-group">
@@ -93,7 +97,7 @@ out the contact form. </h2>
                 <label for="InputName">First Name</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field0" name="firstName" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -102,7 +106,7 @@ out the contact form. </h2>
                 <label for="InputName">Last Name</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field1" name="lastName" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -111,7 +115,7 @@ out the contact form. </h2>
                 <label for="InputName">Company</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field3" name="company" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -120,7 +124,7 @@ out the contact form. </h2>
                 <label for="InputName">Email</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -129,7 +133,7 @@ out the contact form. </h2>
                 <label for="InputName">Phone</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -138,7 +142,7 @@ out the contact form. </h2>
                 <label for="InputName">Role</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field4" name="title" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -151,7 +155,8 @@ out the contact form. </h2>
             </div>
             <div class="clearfix"></div>
           </div>
-        </div>';
+        </div>
+        </form>';
         
         break;
         
@@ -174,7 +179,14 @@ out the contact form. </h2>
             of our customer success representitives.<br>
             We will be in-touch shortly after filling
             out the contact form. </h2>
-        </div>
+        </div>';
+        
+        
+        $CI->data['headerContents'] = '<form method="post" name="copyOfWebsite:ContactUsForm-1466538215075" action="https://s1905848637.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector(form#form20 input[type=submit]);if(s){s.disabled=true;}}},100);return true;" id="form20" class="elq-form" >';
+        
+		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538215075" type="hidden" name="elqFormName"  />
+		<input value="1905848637" type="hidden" name="elqSiteId"  />
+		<input name="elqCampaignId" type="hidden"  />
         <div class="col-md-6 pull-right">
           <div class="col-md-12">
             <div class="form-group">
@@ -182,7 +194,7 @@ out the contact form. </h2>
                 <label for="InputName">First Name</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field0" name="firstName" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -191,7 +203,7 @@ out the contact form. </h2>
                 <label for="InputName">Last Name</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field1" name="lastName" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -200,7 +212,7 @@ out the contact form. </h2>
                 <label for="InputName">Company</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field3" name="company" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -209,7 +221,7 @@ out the contact form. </h2>
                 <label for="InputName">Email</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -218,7 +230,7 @@ out the contact form. </h2>
                 <label for="InputName">Phone</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -227,7 +239,7 @@ out the contact form. </h2>
                 <label for="InputName">Reason</label>
               </div>
               <div class="finput">
-                <input type="text" class="form-control " placeholder=" ">
+                <input type="text" id="field4" name="title" class="form-control " placeholder=" ">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -240,7 +252,7 @@ out the contact form. </h2>
             </div>
             <div class="clearfix"></div>
           </div>
-        </div>';
+        </div></form>';
         
         break;
         
