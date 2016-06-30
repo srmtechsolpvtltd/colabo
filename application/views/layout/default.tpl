@@ -11,7 +11,6 @@
 <link href="<?php echo base_url('assets').'/css/bootstrap.css?version=2.1'?>" rel="stylesheet">
 <link href="<?php echo base_url('assets').'/css/style.css?version=2.2'?>" rel="stylesheet">
 <link href="<?php echo base_url('assets').'/css/responsive.css?version=2.3'?>" rel="stylesheet">
-<link href="<?php echo base_url('assets').'/css/animations.css?version=2.4'?>" rel="stylesheet">
 <link href="<?php echo base_url('assets').'/css/font-awesome.css?version=2.5'?>" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,400italic,500,700,900' rel='stylesheet' type='text/css'>
