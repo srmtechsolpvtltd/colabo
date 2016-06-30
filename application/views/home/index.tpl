@@ -1,7 +1,7 @@
 <div class="container-fluid side-collapse-container">
   <section class="whitebg">
     <div class="container">
-    <div class="salesLeader mb25"><img src="images/salesfore.png" alt=""><img src="<?php echo base_url('assets').'/images/oracle.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/rtech.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/glg.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/virtustream.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/iee.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/cisco.png'?>" alt=""></div>
+    <div class="salesLeader mb25"><img src="<?php echo base_url('assets').'/images/salesfore.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/oracle.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/rtech.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/glg.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/virtustream.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/iee.png'?>" alt=""><img src="<?php echo base_url('assets').'/images/cisco.png'?>" alt=""></div>
       <div class="cb_features">
         <h2>Colabo is trusted by top sales leaders to drive company growth and execute modern sales initiatives including, social selling and account-based sales.</h2>  
       </div>
