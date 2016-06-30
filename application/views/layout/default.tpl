@@ -74,7 +74,7 @@
           <div class="">
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">PRODUCT</div>
-              <div class="foot-links"> <a href="#-">Overview</a> <a href="<?php echo base_url('home/features')?>">Features</a> <a href="#-">Pricing</a> </div>
+              <div class="foot-links"> <a href="#-">Overview</a> <a href="<?php echo base_url('home/features')?>">Features</a> <a href="<?php echo base_url('home/pricing')?>">Pricing</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">COMPANY</div>
