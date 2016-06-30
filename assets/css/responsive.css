@@ -12,7 +12,7 @@
 	.navbar-nav .open .dropdown-menu { background-color: transparent; border: 0 none; box-shadow: none; float: none; margin-top: 0; position: static; width: auto;}
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{ color:#d7d7d7;}
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{ color:#ed3b3f; background-color: transparent;}
-	.carousel{ padding-top:77px; }
+	 
 	.side-collapse-container{width:100%;position:relative;left:0;transition:left .4s;}
 	.side-collapse-container.out{left:80%;}
 	.side-collapse {top:0;bottom:0;left:0;width:80%;position:fixed;overflow:hidden;transition:width .4s; background:#116bb2; z-index:99; padding-top:77px;}
@@ -29,26 +29,22 @@
 	.navbar-nav > li > a{ padding:15px;}
 	.navbar-inverse .navbar-nav > li > a:focus{border-bottom:solid 2px #ed3b3f; outline:none 0px;}
 	.navbar-inverse .navbar-nav > li > a.active{ color:#ed3b3f; border-bottom:solid 2px #ed3b3f;}
-	.top-header{ display:none;}
-	.mrg-bot-40{ margin-bottom:40px;}
-	.pdn-80{ padding:80px 15px 20px;}
+	.top-header{ display:none;} 
 	header.shrink .top-fixed{ top:0; position:relative; transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out;}
 	h2{ font-size:24px; padding:20px 0;}
 	.navbar:not(.shrink){ padding:0px;}
-	navbar-brand{ padding-left:10px;}
-	.min-height-270 {min-height: auto;}
-	.abslt-poston {position: relative;} 
+	navbar-brand{ padding-left:10px;} 
 	.container{width:100%}
 	img.w100{width:100%}
 	h1{ font-size:30px;}
 	.contactusHead h1{ font-size:30px;}
 	.contactusHead h2{ padding:0 0 25px; font-size:22px;}
-	h2, .about_features h2, .features h2, .contactus h2, .Case_Study h2, .priceWrap h2{ font-size:22px;line-height: 30px;}
+	h2, .innerContent h2, .features h2, .contactus h2, .Case_Study h2, .priceWrap h2{ font-size:22px;line-height: 30px;}
 	p{ font-size:20px;line-height:1.5;} 
-	.btn_ylw, .btn_white, .btn_blue, .btn_blueborder, .btn_ylwborder{ font-size:16px; padding:10px 20px; }  
+	/*.btn_ylw, .btn_white, .btn_blue, .btn_blueborder, .btn_ylwborder{ font-size:16px; padding:10px 20px; }  */
 	.salesLeader img:last-child, .crm_compatable img:last-child{float:none;}
 	nav ul li:last-child a {display: inline-block; margin: 20px;text-align: center;width: 50%;}
-	.about_features p, .features p, .priceWrap p{font-size: 18px;font-weight: 300; line-height: 30px;padding: 10px 0 25px;}
+	.innerContent p, .features p, .priceWrap p{font-size: 18px;font-weight: 300; line-height: 30px;padding: 10px 0 25px;}
 	.foot-header{padding-top:15px; padding-bottom:5px}
 	.col-md-6.pull-right.greybg {float: none;padding: 30px;width: 100%;}
 	.aboutus {padding: 50px 0;}
@@ -63,7 +59,6 @@
 	.contactusHead{ padding:30px 0;}
 	.form-group { margin-bottom: 5px;}
 	.ylbg, .footer{ padding:20px 0}
-	#press { width:90%;}
 	.featuresPane{ padding:10px 0}
 	.featuresPane .mtop30, .featuresPane .mtop50 {padding-top: 0;}
 	.featuresPane .mb30 {margin-bottom: 10px;}
@@ -74,20 +69,30 @@
 	.PrPane{ padding-bottom:0px}
 	h2.font40{ font-size:30px;}
 }
+@media screen and (max-width: 980px) {
+	.col-md-5.featuresImg {float: none; margin: 0 auto; width: 80%; text-align:center;}}
 @media screen and (max-width: 800px) {
 	.priceWrap .pricingList ul li .priceBox h3 {font-size: 20px;}
 	.priceWrap .pricingList ul li .priceBox p {font-size: 20px;}
 	.priceWrap .pricingList ul li h1 {font-size: 24px;}
-	.priceWrap .pricingList ul li .btn_blue {padding: 2px 20px; font-size: 20px;}
+	.priceWrap .pricingList ul li .btn_blue {padding: 2px 20px; font-size: 20px;}.displayNone{ display:none;}
+	.row.ptop60{ padding-top:10px;}
+	.col-md-5.pull-right { width: 100%;}
+	h2.colorBlack.ptop60 {padding: 25px 0 10px;}
+	.csPane p {  height: auto;vertical-align: middle; padding:10px !important; line-height:26px; box-sizing:border-box;}
+	.formdiv{ width:100%;}
 }
 @media screen and (max-width: 767px) {
 	.priceWrap .pricingList ul li{width:100%;}
+	.priceWrap .pricingList ul li:nth-child(2) { margin: 0;}
 }
 
 @media screen and (max-width: 639px) {
 	.img-responsive, .carousel-inner > .item > img{ width:auto; height:100%; max-width:200%;}
 	.carousel-caption h2{ margin:10px 0; font-size:22px;}
 	.carousel-caption p{ white-space:normal; font-size:16px; font-weight:700;}
+	.col-md-12.pad30.clearfix { padding: 15px 0;}
+	
 }
 @media screen and (max-width: 480px) {
 	.row.ptop60{ padding-top:10px;}
@@ -99,4 +104,9 @@
 	.flabel {padding-top: 1px;width: 100%;}
 	.pricingListPane h2 {width: 100%;}
 	.Pricelist{ float:none; padding:0 0 10px 10px;}
+	.csPane {width: 100%;}
+	.csPane h3 {padding: 15px 0;}
+	.csPane p {    height: auto;vertical-align: middle; padding:0 10px 25px; box-sizing:border-box;}
+	.h2dis h2{ display:block;}
+	h2 .pull-left {padding: 10px 25px 25px 0;}
 }

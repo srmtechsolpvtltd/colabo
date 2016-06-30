@@ -37,7 +37,7 @@
             <li class="active"><a href="Product.html">Product</a></li>
             <li><a href="<?php echo base_url('home/features')?>">Features</a></li>
             <li><a href="<?php echo base_url('home/about')?>">Company</a></li>
-            <li><a href="Pricing.html">Pricing</a></li>
+            <li><a href="<?php echo base_url('home/pricing')?>">Pricing</a></li>
             <li class="login"><a href="Login.html" class="">Login</a></li>
           </ul>
         </nav>

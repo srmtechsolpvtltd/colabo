@@ -18,11 +18,11 @@ function getTitle($page=NULL){
 		
 		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
 		
-		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = '';
 		
 		
-		$CI->data['headerContents'] = '<div class="aboutus">
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
           <h1 class="animated fadeIn slower go">We’re redefining what enterprise sales tools look like.<br>
             Colabo is more than a sales tool. It’s an enterprise sales automation platform. </h1>
         </div>';
@@ -37,10 +37,10 @@ function getTitle($page=NULL){
 		
 		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
 		
-		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = '';
 		
-		$CI->data['headerContents'] = '<div class="aboutus">
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
           <h1 class="animated fadeIn slower go">Your sales team is unique. They need a sales platform that is flexable,
             and works with them. Colabo allows you to build a custom sales stack 
             that caters to your team’s needs. </h1>
@@ -57,11 +57,13 @@ function getTitle($page=NULL){
 		
 		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
 		
-		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = '';
 		
-		$CI->data['headerContents'] = '<div class="aboutus">
-          <h1 class="animated fadeIn slower go">Your team needs the ability to target specific accounts with the right message at the right time. Colabo combines the features they need to be successful with real-time lead data.</h1>
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
+          <h1 class="animated fadeIn slower go">Your team needs the ability to target specific accounts
+with the right message at the right time. Colabo combines
+the features they need to be successful with real-time lead data.</h1>
         </div>';
         
         break;
@@ -69,13 +71,13 @@ function getTitle($page=NULL){
         
         case 'demo':
 		
-		$CI->data["title"] = "Colabo - Next-Generation Sales";
+		$CI->data["title"] = "Demo Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
 		
-		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
+		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
 		
-		$CI->data["navigationCss"] = "bluebg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
 		
 		$CI->data['headerContents'] = '<div class="col-md-5">
@@ -91,7 +93,7 @@ out the contact form. </h2>
 		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538923516" type="hidden" name="elqFormName"  />
 		<input value="1905848637" type="hidden" name="elqSiteId"  />
 		<input name="elqCampaignId" type="hidden"  />
-        <div class="col-md-6 pull-right">
+        <div class="col-md-6 pull-right formdiv">
           <div class="col-md-12">
             <div class="form-group">
               <div class="flabel">
@@ -149,8 +151,8 @@ out the contact form. </h2>
             </div>
             <div class="form-group">
               <div class="flabel"> &nbsp; </div>
-              <div class="finput">
-                <button type="submit" class="btn_ylw wauto">Show me how it works</button>
+              <div class="finput mb30">
+                <button type="submit" class="btn_green">Start the Conversation</button>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -164,13 +166,13 @@ out the contact form. </h2>
         
         case 'contact':
 		
-		$CI->data["title"] = "Colabo - Next-Generation Sales";
+		$CI->data["title"] = "Contact Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		$CI->data['description'] = 'Talk with the Colabo team. For sales requests, product information, marketing inquiries, media requests, and partnerships.';
 		
-		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
+		$CI->data['keywords'] = 'Talk with the Colabo team. For sales requests, product information, marketing inquiries, media requests, and partnerships.';
 		
-		$CI->data["navigationCss"] = "bluebg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
 		
 		$CI->data['headerContents'] = '<div class="col-md-5">
@@ -188,7 +190,7 @@ out the contact form. </h2>
 		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538215075" type="hidden" name="elqFormName"  />
 		<input value="1905848637" type="hidden" name="elqSiteId"  />
 		<input name="elqCampaignId" type="hidden"  />
-        <div class="col-md-6 pull-right">
+        <div class="col-md-6 pull-right formdiv">
           <div class="col-md-12">
             <div class="form-group">
               <div class="flabel">
@@ -246,8 +248,8 @@ out the contact form. </h2>
             </div>
             <div class="form-group">
               <div class="flabel"> &nbsp; </div>
-              <div class="finput">
-                <button type="submit" class="btn_ylw wauto">Start the Conversation</button>
+              <div class="finput mb30">
+                <button type="submit" class="btn_green">Start the Conversation</button>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -265,10 +267,10 @@ out the contact form. </h2>
 		
 		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
 		
-		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = '';
 		
-		$CI->data['headerContents'] = '<div class="aboutus caseStudy">
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
           <h1 class="animated fadeIn slower go">Colabo Pricing</h1>
         </div>';
         
@@ -282,11 +284,45 @@ out the contact form. </h2>
 		
 		$CI->data['keywords'] = 'Website Development, Offshore Software Development, Search Engine Optimization(SEO), Mobile Apps Development, Web Development Company, Custom Website design, Software Development, Cloud Computing, Mobile app development, internet marketing, USA, Canada';
 		
-		$CI->data["navigationCss"] = "aboutbg";
+		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = '';
 		
 		$CI->data['headerContents'] = '<div class="aboutus caseStudy">
           <h1 class="animated fadeIn slower go">Case Studies</h1>
+        </div>';
+        
+        break;
+        
+        case 'privacy':
+		
+		$CI->data["title"] = "Colabo Privacy Policy  - Next-Generation Sales";
+		
+		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data['keywords'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data["navigationCss"] = "innerWrap";
+		$CI->data["bannerClass"] = '';
+		
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
+          <h1 class="animated fadeIn slower go">Colabo&trade; Privacy Policy</h1>
+        </div>';
+        
+        break;
+        
+        case 'tos':
+		
+		$CI->data["title"] = "Colabo Terms of Service - Next-Generation Sales";
+		
+		$CI->data['description'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data['keywords'] = 'Colabo is a next-generation  sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.';
+		
+		$CI->data["navigationCss"] = "innerWrap";
+		$CI->data["bannerClass"] = '';
+		
+		$CI->data['headerContents'] = '<div class="aboutus inHeader">
+          <h1 class="animated fadeIn slower go">Colabo&trade; Terms of Use</h1>
         </div>';
         
         break;
@@ -306,8 +342,8 @@ out the contact form. </h2>
         <h1 class="animated fadeIn slower go">A Platform for the Modern Sales Stack</h1>
         <h2 class="animated fadeIn slower go">Colabo is a next-generation sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.</h2>
         <div class="hbtns">
-          <div class="ec-btn"><a href="'.base_url('home/explore').'" class="btn_ylw">Explore Colabo</a></div>
-          <div class="tc-btn"><a href="#-" class="btn_white">Try Colabo</a></div>
+          <div class="ec-btn"><a href="'.base_url('home/explore').'" class="btn_green">Explore Colabo</a></div>
+          <div class="tc-btn"><a href="'.base_url('home/demo').'" class="btn_white">Try Colabo</a></div>
           <div class="clearfix"></div>
         </div>';
 	}

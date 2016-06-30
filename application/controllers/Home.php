@@ -93,4 +93,24 @@ class Home extends CI_Controller {
 	}
 	
 	
+	/**** 
+	 * Function to view privacy page of website
+	****/
+	public function privacy(){
+		
+		getTitle('privacy');
+		$this->render();
+	}
+	
+	
+	/**** 
+	 * Function to view tos page of website
+	****/
+	public function tos(){
+		
+		getTitle('tos');
+		$this->render();
+	}
+	
+	
 }//End Class
