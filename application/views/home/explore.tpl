@@ -47,7 +47,7 @@ First Meetings by 450% </h5>
         </div>
         <div class="col-md-12 explorePane">
           <h2 class="colorBlack">CRM Compatible</h2>
-          <p>Colabo integrates seemlessly with all enterprise CRMs including, Salesforce, Microsoft Dynamics CRM, 
+          <p>Colabo integrates seamlessly with all enterprise CRMs including, Salesforce, Microsoft Dynamics CRM, 
             Oracle Sales Cloud CRM, and SAP CRM.</p>  
           <p class="ptop20">With Colabo all interaction and activity data is synced into your CRM ensuring that every interaction is recorded.
             This allows for smooth account hand-offs, increased rep productivity, and high visibility into sales cycles. </p>
