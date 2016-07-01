@@ -10,7 +10,7 @@
               visibility for sales and marketing. Colabo sits on top of 
               your existing CRM, allowing your team to harness 
               powerful engagement channels like LinkedIn, Xing, 
-              Twitter & Meetup for prospecting, engaging, and 
+              Twitter &amp; Meetup for prospecting, engaging, and 
               tracking new leads. </p>
             <p>Colabo allows users to create custom messages and 
               campaign flows that achieve increased response rates. 
@@ -48,7 +48,7 @@
           <p>Asaf Wexler is in charge of development, engineering and technology at Colabo. Prior to Colabo, Asaf was an executive at VMware and founded VMware's VC Ops product line. Asaf was Co-Founder and CTO at B-hive, and prior to founding B-hive, Asaf worked at Breach Security and Gilian Technologies in various R&D roles. Asaf started his technology career in the IDF's elite intelligence technology unit where he served as a Captain. He graduated from Tel Aviv University with a degree in Computer Science and Psychology. Asaf is also involved in multiple activities that aim to make technology approachable to children.</p>
           <h2 class="colorBlack">Naama Halperin  | Co-Founder & COO</h2>
           <p>Naama is responsible for sales, support and operations at Colabo. Prior to Colabo, Naama was the R&D Site Director at VMware. Naama served as the COO at B-hive prior to its acquisition by VMware and previously held a variety of operational roles at Breach Security and Gilian Technologies along with her Colabo Co-Founders.</p>
-          <h2  class="colorBlack mb25">Think you have what it take to join the Colabo team?</h2>
+          <h2  class="colorBlack mb25">Think you have what it takes to join the Colabo team?</h2>
           <div class="clearfix mb30"><a href="<?php echo base_url('home/contactus')?>" class="btn_blue">Say Hello</a></div>
         </div>
       </div>
