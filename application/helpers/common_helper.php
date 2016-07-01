@@ -41,7 +41,7 @@ function getTitle($page=NULL){
 		$CI->data["bannerClass"] = '';
 		
 		$CI->data['headerContents'] = '<div class="aboutus inHeader">
-          <h1 class="animated fadeIn slower go">Your sales team is unique. They need a sales platform that is flexable,
+          <h1 class="animated fadeIn slower go">Your sales team is unique. They need a sales platform that is flexible,
             and works with them. Colabo allows you to build a custom sales stack 
             that caters to your team’s needs. </h1>
         </div>';
@@ -73,9 +73,9 @@ the features they need to be successful with real-time lead data.</h1>
 		
 		$CI->data["title"] = "Demo Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
-		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
 		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
