@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <h2 class="colorBlack cont-title">Case Study</h2>
         <p>Social selling and the modern sales organization. Empower your team to engage leads and close deals faster.</p>
-        <div class="clearfix  mb25 ptop20"><a href="casestudy.html" class="btn_blue">Read More</a></div>
+        <div class="clearfix  mb25 ptop20"><a href="<?php echo base_url('home/casestudy')?>" class="btn_blue">Read More</a></div>
       </div>
     </div> 
   </div>
