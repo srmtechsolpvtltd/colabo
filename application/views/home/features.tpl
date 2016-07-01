@@ -29,11 +29,11 @@
         <div class="col-md-12 featuresPane">
           <div class="col-md-5 featuresImg"><img src="<?php echo base_url('assets').'/images/multiChannelEngagment_features.png'?>" alt="" class="w100"/></div>
           <div class="col-md-6 padnone pull-right">
-            <h2 class="colorBlack">Multi Channel Engagement</h2>
+            <h2 class="colorBlack">Multi-Channel Engagement</h2>
             <p>For your team to win they need to be agile. Colabo 
-              let’s them be in the right place, with the right message, 
+              lets them be in the right place, with the right message, 
               at the right time. Colabo gives your team the ability
-              to reach and track key interactoins that don’t take 
+              to reach and track key interactions that don’t take 
               place in your CRM.</p>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="col-md-6 padnone pull-right">
             <h2 class="colorBlack">Outbound Sales</h2>
             <p>Modern sales is about building relationships. Colabo 
-              makes this easy with our intellegent propspecting feature, 
+              makes this easy with our intelligent prospecting feature, 
               data enrichment and ability to send social interactions at 
               scale. Colabo works with top social networks including: 
               LinkedIn, Xing, Meetups, & Twitter. </p>
@@ -58,8 +58,8 @@
         </div>
         <div class="col-md-12 featuresPane_abf">
           <h2 class="colorBlack">Before Colabo</h2>
-          <p>Sales stacks are comprised of multiple third-party tools. These tools don’t connect direcly into your CRM, making 
-            tracking impossible, and forcing your team to go outside of your organization’s CRM sacrificing improtant visibility.</p>
+          <p>Sales stacks are comprised of multiple third-party tools. These tools don’t connect directly into your CRM, making 
+            tracking impossible, and forcing your team to go outside of your organization’s CRM sacrificing important visibility.</p>
           <div class="clearfix animated mtop30"><img src="<?php echo base_url('assets').'/images/before_co.png'?>" class="w100"  alt=""/></div>
         </div>
         <div class="col-md-12 featuresPane_abf">
