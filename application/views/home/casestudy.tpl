@@ -77,7 +77,7 @@
             being pursued, leading to increased sales in a shorter time frame. EarlySense reduced time spent prospecting by 70%
             by using Colabo’s Clipper and CRM Integration tools. And because the SDRs at EarlySense suddenly had more hours
             to pursue and engage leads, they were able to accomplish a 450% increase in new meetings.</p>
-          <div class="mb25 mtop30"> <a class="btn_green" href="#-">Get Colabo for Your Team</a>
+          <div class="mb25 mtop30"> <a class="btn_green" href="<?php echo base_url('home/pricing')?>">Get Colabo for Your Team</a>
             <div class="clearfix"></div>
           </div>
         </div>
@@ -154,7 +154,7 @@
             meetings they were able to set up.</p>
           <h2 class="colorBlack ptop60">Ready to bring Colabo to your organization?</h2>
           <div class="">
-            <div class="ec-btn"><a class="btn_blue" href="#-">Contact Sales</a></div>
+            <div class="ec-btn"><a class="btn_blue" href="<?php echo base_url('home/contactus')?>">Contact Sales</a></div>
             <div class="tc-btn"><a class="btn_green" href="#-">Free Trial</a></div>
             <div class="clearfix"></div>
           </div>
