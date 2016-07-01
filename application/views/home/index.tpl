@@ -8,16 +8,26 @@
     </div>
   </section>
   <section class="greenbg">
-    <div class="container">
+    <div class="container"> <div class="col-md-6 pull-left padLNone">
       <div class="es">
         <h2><img src="<?php echo base_url('assets').'/images/earlysense_head.png'?>" alt=""/><i style="padding:10px 0; display:inline-block">
 EarlySense Uses Colabo to Speed Up Sales Cycle By 70% And Increase First Meetings by 450%.</i><br>
-         In search for a tool that would automate their manual work, EarlySense was excited to discover Colabo. 
-The SDRs at EarlySense, who generate the bulk of their leads from LinkedIn, use the Colabo Clipper to clip dozens 
-of leads at a time from LinkedIn and other social media favorites directly to their CRM—Salesforce, in their case.
-Because the Clipper is a downloadable Chrome extension that integrates into the social networking services 
-EarlySense already uses, the SDRs at EarlySense quickly learned just how easy it is to use Colabo...</h2>
+         In search for a tool that would automate their manual
+work, EarlySense was excited to discover Colabo. The
+SDRs at EarlySense, who generate the bulk of their
+leads from LinkedIn, use the Colabo Clipper to clip...</h2>
          <div class="clearfix pull-left"><a href="<?php echo base_url('home/casestudy')?>" class="btn_blue">View More</a></div>
+      </div></div> <div class="col-md-6  pull-right">
+       <div class="es">
+        <h2><img src="<?php echo base_url('assets').'/images/stratogent_green.png'?>" alt=""/><i style="padding:10px 0; display:inline-block">
+Stratogent Accomplishes x10 Response Rate and 350%
+Increase In First Meetings By Using Colabo</i><br>
+         Stratogent’s Sales Director came across Colabo and
+learned how Colabo can help increase and automate
+engagement efforts. The SDRs at Stratogent no longer
+rely just on email and phone to initiate contact...</h2>
+         <div class="clearfix pull-left"><a href="<?php echo base_url('home/casestudy')?>" class="btn_blue">View More</a></div>
+      </div>
       </div>
     </div>
   </section>

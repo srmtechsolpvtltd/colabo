@@ -7,7 +7,7 @@
           <p>Colabo’s platform is built for stability, security and functionality. Colabo can be quickly deployed across 
             multiple teams in your organization making roll out fast and onboarding even faster.</p>
           <div class="mtop50 ">
-            <div class="clearfix mb30 pull-left"><a href="#-" class="btn_green">Get Colabo!</a></div>
+            <div class="clearfix mb30 pull-left"><a href="<?php echo base_url('home/pricing')?>" class="btn_green">Get Colabo!</a></div>
           </div>
        
         
@@ -15,12 +15,10 @@
           <div class="col-md-6 mr30 padlNone">
             <div class="card_exp"> 
               <div class="userimg_exp"><img src="<?php echo base_url('assets').'/images/earlysense.png'?>" alt=""></div>
-              <div class="userdet">
-                <h4>EarlySense</h4>
-                <h5><em>EarlySense Uses Colabo to Speed Up
+              <div class="userdet"> 
+                <h5> EarlySense Uses Colabo to Speed Up
 Sales Cycle By 70% And Increase
-First Meetings by 450%
-</em></h5>
+First Meetings by 450% </h5>
                 <div class="readmore"><a href="#">Read the full use case</a></div>
               </div>
               <div class="clearfix"></div>
@@ -28,11 +26,10 @@ First Meetings by 450%
           </div> <div class="col-md-6 mr30 padrNone">
             <div class="card_exp"> 
               <div class="userimg_exp"><img src="<?php echo base_url('assets').'/images/stratogent.png'?>" alt=""></div>
-              <div class="userdet">
-                <h4>Stratogent</h4>
-                <h5>Stratogent Accomplishes x10<br>
-                  Response Rate and 350% Increase<br>
-                  In First Meetings By Using Colabo<br>
+              <div class="userdet"> 
+                <h5>Stratogent Accomplishes x10
+                  Response Rate and 350% Increase
+                  In First Meetings By Using Colabo
                 </h5>
                 <div class="readmore"><a href="#">Read the full use case</a></div>
               </div>
@@ -45,7 +42,7 @@ First Meetings by 450%
           <h2 class="colorBlack">Next-Generation Sales Development and Acceleration</h2>
           <p>The modern sales team depends on more than just dial and smile techniques to find and close opportunities. They are deploying social selling strategies, automated campaigns, email optimization techniques, and advanced reporting. Colabo packages all of the functionality enterprise sales teams need into one platform, allowing your team to reach prospects with the right message at the right time.</p>
           <div class="mtop50 ">
-            <div class="clearfix mb25 pull-left"><a href="#-" class="btn_green">Demo Colabo</a></div>
+            <div class="clearfix mb25 pull-left"><a href="<?php echo base_url('home/demo')?>" class="btn_green">Demo Colabo</a></div>
           </div>
         </div>
         <div class="col-md-12 explorePane">
@@ -74,7 +71,7 @@ First Meetings by 450%
             <li>Social Activity &amp; Interaction Tracking.</li>
           </ul>
           <div class="mtop30  clearfix">
-            <div class="clearfix mb30 pull-left"><a href="#-" class="btn_blue">Colabo Features</a></div>
+            <div class="clearfix mb30 pull-left"><a href="<?php echo base_url('home/features')?>" class="btn_blue">Colabo Features</a></div>
           </div>
         </div>
       

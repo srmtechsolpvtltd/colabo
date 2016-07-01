@@ -32,13 +32,13 @@
               <strong>Phone:</strong> +1-650-288-6649<br>
               <strong>Toll free:</strong> 1-877-216-3963<br>
               <strong>Fax:</strong> 1-650-240-0281<br>
-              <strong>Email:</strong> <a href="support@colabo.com">support@colabo.com</a> | <a href="mailto:info@colabo.com">info@colabo.com</a> |<br>
-              <a href="mailto:press@colabo.com">press@colabo.com</a></p>
+              <strong>Email:</strong> support@colabo.com | info@colabo.com |<br>
+              press@colabo.com</p>
             <p class="padnone"> <span class="colorBlack"> Israel:</span><br>
               8 Abba Eban Street, Building B <br>
               POB 12867, Herzliya, Israel 46733<br>
               <strong>Phone:</strong> +972-74-7035575</p>
-            <div class="clearfix "><a href="#-" class="btn_blue">Contact Sales</a></div>
+            <div class="clearfix "><a href="<?php echo base_url('home/contactus')?>" class="btn_green">Contact Sales</a></div>
           </div>
         </div>
         <div class="col-md-12 aboutCon ptop60 ">
@@ -49,7 +49,7 @@
           <h2 class="colorBlack">Naama Halperin  | Co-Founder & COO</h2>
           <p>Naama is responsible for sales, support and operations at Colabo. Prior to Colabo, Naama was the R&D Site Director at VMware. Naama served as the COO at B-hive prior to its acquisition by VMware and previously held a variety of operational roles at Breach Security and Gilian Technologies along with her Colabo Co-Founders.</p>
           <h2  class="colorBlack mb25">Think you have what it take to join the Colabo team?</h2>
-          <div class="clearfix mb30"><a href="#-" class="btn_blue">Say Hello</a></div>
+          <div class="clearfix mb30"><a href="<?php echo base_url('home/contactus')?>" class="btn_blue">Say Hello</a></div>
         </div>
       </div>
     </div>

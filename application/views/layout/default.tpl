@@ -33,11 +33,11 @@
       <div class="navbar-inverse side-collapse in">
         <nav role="navigation" class="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="Product.html">Product</a></li>
+            <li class="active"><a href="<?php echo base_url('home/explore')?>">Product</a></li>
             <li><a href="<?php echo base_url('home/features')?>">Features</a></li>
             <li><a href="<?php echo base_url('home/about')?>">Company</a></li>
             <li><a href="<?php echo base_url('home/pricing')?>">Pricing</a></li>
-            <li class="login"><a href="Login.html" class="">Login</a></li>
+            <li class="login"><a href="#" class="">Login</a></li>
           </ul>
         </nav>
       </div>
@@ -73,19 +73,19 @@
           <div class="">
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">PRODUCT</div>
-              <div class="foot-links"> <a href="#-">Overview</a> <a href="<?php echo base_url('home/features')?>">Features</a> <a href="<?php echo base_url('home/pricing')?>">Pricing</a> </div>
+              <div class="foot-links"> <a href="<?php echo base_url('home/explore')?>">Overview</a> <a href="<?php echo base_url('home/features')?>">Features</a> <a href="<?php echo base_url('home/pricing')?>">Pricing</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">COMPANY</div>
-              <div class="foot-links"> <a href="<?php echo base_url('home/about')?>">About</a> <a href="#-">Customers</a> <a href="#-">Legal</a> </div>
+              <div class="foot-links"> <a href="<?php echo base_url('home/about')?>">About</a> <a href="<?php echo base_url('home/tos')?>">Customers</a> <a href="<?php echo base_url('home/privacy')?>">Legal</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header"> CONTACT </div>
-              <div class="foot-links"> <a href="<?php echo base_url('home/contactus')?>">Questions</a> <a href="<?php echo base_url('home/demo')?>">Demos</a> <a href="#-">Support</a> </div>
+              <div class="foot-links"> <a href="<?php echo base_url('home/contactus')?>">Questions</a> <a href="<?php echo base_url('home/demo')?>">Demos</a> <a href="http://zd.colabo.com/hc/en-us">Support</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">RESOURCES</div>
-              <div class="foot-links"> <a href="#-">Blog</a> <a href="#-">White Papers</a> <a href="#-">FAQ</a> </div>
+              <div class="foot-links"> <a href="http://blog.colabo.com">Blog</a> <a href="<?php echo base_url('home/casestudy')?>">White Papers</a> <a href="<?php echo base_url('home/features#faq')?>">FAQ</a> </div>
             </div>
           </div>
         </div>

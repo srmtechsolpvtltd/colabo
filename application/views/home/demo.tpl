@@ -1,11 +1,11 @@
 <div class="container-fluid side-collapse-container">
-  <section class="whitebg animatedParent">
+  <section class="whitebg">
   <div class="container">
-    <div class="contactus">
-      <div class="col-md-12 animated fadeIn slower go">
+    <div class="innerContent">
+      <div class="col-md-12">
         <h2 class="colorBlack cont-title">Case Study</h2>
-        <h2 class="">How Stratogent Accomplished a x10 Response Rate and 350% Increase In First Meetings with Colabo. </h2> 
-        <div class="clearfix animated fadeIn slower go  mb25"><a href="#-" class="btn_blue">Read More</a></div>
+        <p>Social selling and the modern sales organization. Empower your team to engage leads and close deals faster.</p>
+        <div class="clearfix  mb25 ptop20"><a href="casestudy.html" class="btn_blue">Read More</a></div>
       </div>
     </div> 
   </div>

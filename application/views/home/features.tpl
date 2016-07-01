@@ -51,8 +51,8 @@
         <div class="col-md-12 featuresPane">
           <h2 class="colorBlack ptop20">Ready to bring Colabo to your organization?</h2>
           <div class="mb30">
-            <div class="ec-btn"><a href="#-" class="btn_blue">Contact Sales</a></div>
-            <div class="tc-btn"><a href="#-" class="btn_green">Free Trial</a></div>
+            <div class="ec-btn"><a href="<?php echo base_url('home/contactus')?>" class="btn_blue">Contact Sales</a></div>
+            <div class="tc-btn"><a href="#" class="btn_green">Free Trial</a></div>
             <div class="clearfix"></div>
           </div>
         </div>
@@ -74,55 +74,11 @@
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="ture" aria-controls="collapseOne"> How do I connect Colabo to my CRM? </h4>
+                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="ture" aria-controls="collapseOne"> How do I connect Colabo to my CRM?</h4>
               </div>
               <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-					<p class="titleBlue"><strong>Connecting Colabo to your CRM</strong></p>
-                  <p class="titleBlue">Sync Colabo with Oracle</p>
-                  <ol>
-                    <li>Log in to Colabo with your  email address and password</li>
-                    <li>Go to Colabo&rsquo;s settings  (green guy top right) ---&gt; Oracle sales cloud</li>
-                    <li>Enter your Oracle username  and password</li>
-                    <li>Open a new tab ---&gt; login  Oracle ---&gt; copy the URL</li>
-                    <li>Go back to Colabo&rsquo;s settings  ---&gt; paste the Oracle URL</li>
-                    <li>Click connect</li>
-                  </ol>
-                  <p class="titleBlue"> Sync Colabo with Salesforce</p>
-                  <div class="padl50">
-                    <p class="titleBlue">How do I know which edition  I have in Salesforce?</p>
-                    <ol>
-                      <li>Open a new tab in your  browser</li>
-                      <li>Log into Salesforce</li>
-                      <li>Hover your mouse over the top  part of the tab </li>
-                      <li>Discover what edition you&rsquo;re  using</li>
-                    </ol>
-                    <p class="titleBlue">Sync Colabo Salesforce  Enterprise edition</p>
-                    <ol>
-                      <li>Log in to Colabo with your  email address and password</li>
-                      <li>Go to Colabo&rsquo;s settings  (green guy top right) ---&gt; Salesforce</li>
-                      <li>Click &lsquo;Using Enterprise  Edition?&rsquo;</li>
-                      <li>Enter your consumer key</li>
-                      <li>Enter your consumer secret </li>
-                      <li>Click Connect</li>
-                    </ol>
-                    <p class="titleBlue">Not using Salesforce  Enterprise edition?</p>
-                    <ol>
-                      <li>Log in to Colabo with your  email address and password</li>
-                      <li>Go to Colabo&rsquo;s settings  (green guy top right) ---&gt; Salesforce</li>
-                      <li>Add your organization OID</li>
-                      <li>Continue setting your  Salesforce settings or return to your leads clicking on the house icon</li>
-                    </ol>
-                  </div>
-                  <p class="titleBlue">Salesforce settings within Colabo</p>
-                  <ol>
-                    <li>Log in to Colabo with your  email address and password</li>
-                    <li>Go to Colabo&rsquo;s settings  (green guy top right) ---&gt; Salesforce</li>
-                    <li>If you want your leads to be pushed  automatically to Salesforce, check the box &lsquo;Push clipped leads to Salesforce  automatically&rsquo;</li>
-                    <li>If you want to push them manually from  Colabo&rsquo;s dashboard, leave this box unchecked. </li>
-                  </ol>
-                  <p><span class="titleBlue">Create new records  in Salesforce</span><br>
-                    You can decide if  you would like your new prospects to be Salesforce leads or contact and  accounts</p>
+                  <p>Connecting and syncing Colabo to your CRM is easy,  simply enter your username and password for your CRM account within Colabo, then click connect.</p>
                 </div>
               </div>
             </div>
@@ -132,23 +88,7 @@
               </div>
               <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" >
-                  <p class="titleBlue">Leads enrichment stopped or failed</p>
-                  <ol>
-                    <li>Re-enrich the lead that  stopped or failed</li>
-                    <ol>
-                      <li>Log  in to Colabo using your email address and password</li>
-                      <li>Click on the lead to see his  full view</li>
-                      <li>Click  on the down pointing error </li>
-                      <li>Click Re-enrich</li>
-                    </ol>
-                    <li>Make sure the extension tab  is running</li>
-                    <ol>
-                      <li>Refresh  the Colabo tab</li>
-                      <li>Another tab should populate.  That is your extension tab.</li>
-                      <li>Right  click on the extension tab ---&gt; pin tab</li>
-                      <li>Re-enrich the lead</li>
-                    </ol>
-                  </ol>
+                  <p>Enrichment in Colabo can stop or fail mainly because the Colabo extension has been disabled/not installed or because the Colabo extension tab has been closed. We suggest making sure that the extension tab is open before contacting support.</p>
                 </div>
               </div>
             </div>
@@ -164,39 +104,12 @@
             </div>
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="heading4">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Does Colabo allow for creating and customizing templates for email and messaging? </h4>
+                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Does Colabo allow for creating and customizing templates for email and messaging?</h4>
               </div>
               <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" >
                   <p>Yes, to customize your template:</p>
-                  <p class="titleBlue"><strong>Personalize your templates (dynamic  fields)</strong> <br>                 
-                  By  adding Colabo&rsquo;s dynamic fields you can personalize each message in no time
-                  </p>
-                  <ol>
-                    <li>&lt;&lt;first name&gt;&gt; Will automatically insert the  first name of your recipient</li>
-                    <li>&lt;&lt;last name&gt;&gt; Will automatically insert the  last name of your recipient</li>
-                    <li>&lt;&lt;company  name&gt;&gt; Will automatically insert the company name of your recipient</li>
-                  </ol>
-                  <p>For example: Hi &lt;&lt;first  name&gt;&gt;, will actually look like Hi Simon,<br>
-                    <strong class="titleBlue"><u>Leads  full view</u></strong></p>
-                  <div class="padl50">
-                    <p class="titleBlue">Delete a lead</p>
-                    <ol>
-                      <li>Log in to Colabo using your  email address and password</li>
-                      <li>Click on the lead to see his  full view</li>
-                      <li>Click on the down pointing  arrow</li>
-                      <li>Click delete</li>
-                    </ol>
-                    <p class="titleBlue">Edit lead information</p>
-                    <ol>
-                      <li>Log in to Colabo using your  email address and password</li>
-                      <li>Click on the lead to see his  full view</li>
-                      <li>Click on the down pointing  arrow</li>
-                      <li>Click Edit lead </li>
-                      <li>Change/Add the leads  information</li>
-                      <li>Click save</li>
-                    </ol>
-                  </div>
+                  <p>Yes, you can customize your templates using dynamic fields like first name, last name, company name and any other customized fields taken from social platforms.</p>
                 </div>
               </div>
             </div>
@@ -206,16 +119,14 @@
               </div>
               <div id="collapse5" class="panel-collapse collapse  in" role="tabpanel" aria-labelledby="heading5">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" >
-                  <p>Yes. To connect your email account to Colabo, login to Colabo with your email address and password, then go to 
-                    Colabo’s settings (green guy top right) ---> Email. Enter your email address and password then enter your host and port.
-                    Click connect</p>
+                  <p>Yes. Through Colabo’s settings page you can easily configure Colabo to connect to your email server which will allow you to send emails through Colabo and receive notifications when you receive new emails.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="aboutCon mtop30 ">
-          <div class="clearfix mb30"><a href="#-" class="btn_green">Talk with a Colabo Expert</a></div>
+          <div class="clearfix mb30"><a href="<?php echo base_url('home/demo')?>" class="btn_green">Talk with a Colabo Expert</a></div>
         </div>
       </div>
     </div>

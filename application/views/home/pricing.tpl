@@ -3,7 +3,7 @@
     <div class="container">
       <div class="priceWrap">
         <div class="col-md-12 PrPane">
-          <p>Colabo is priced as a 10 seat minumum. For more information please <a href="#"><u>contact sales</u></a>.</p>
+          <p>Colabo is priced as a 10 seat minumum. For more information please <a href="<?php echo base_url('home/contactus')?>"><u>contact sales</u></a>.</p>
           <!--Pricing  box open-->
           <div class="pricingList">
             <ul>
@@ -33,7 +33,7 @@
                   <h3>Automated Workflows</h3>
                   <p>Dynamic Workflows for Data Capture Triggered Followup Workflows</p>
                 </div>
-                    <div class="ec-btn"><a class="btn_green" href="#-">Contact Sales</a></div>
+                    <div class="ec-btn"><a class="btn_green" href="<?php echo base_url('home/contactus')?>">Contact Sales</a></div>
               </li>
               <li>
                 <h2>Engagement</h2>
@@ -68,7 +68,7 @@
             the added productivity and scalibility of automated workflows.</p>
           <h2 class="colorBlack font40">Ready to bring Colabo to your organization?</h2>
           <div class="mtop30 mb25">
-             <div class="ec-btn"><a href="#-" class="btn_blue">Contact Sales</a></div>
+             <div class="ec-btn"><a href="<?php echo base_url('home/contactus')?>" class="btn_blue">Contact Sales</a></div>
              <div class="tc-btn"><a href="#-" class="btn_green">Free Trial</a></div>
             <div class="clearfix"></div>
           </div>
