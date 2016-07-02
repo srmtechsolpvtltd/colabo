@@ -76,7 +76,7 @@
   <footer class="footer animatedParent">
     <div class="container pdn-40 animated fadeIn slower go">
       <div class="col-md-8">
-        <div class="foot-header"><a href="<?php echo base_url()?>"><img src="<?php echo base_url('assets').'/images/logo.png'?>" alt=""/></a></div>
+        <div class="foot-header displayNone"><a href="<?php echo base_url()?>"><img src="<?php echo base_url('assets').'/images/logo.png'?>" alt=""/></a></div>
         <div class="foot-links">
           <p>A Platform for the Modern Sales Stack. </p>
         </div>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-xs-6 col-sm-3"><img src="<?php echo base_url('assets').'/images/footerimg.png'?>" alt="" usemap="#Map" class="w100"/>
+      <div class="col-md-4 col-xs-6 col-sm-3 displayNone"><img src="<?php echo base_url('assets').'/images/footerimg.png'?>" alt="" usemap="#Map" class="w100"/>
         <map name="Map">
           <area shape="rect" coords="213,51,255,103" href="#">
           <area shape="rect" coords="264,87,310,129" href="#">
