@@ -73,9 +73,9 @@ the features they need to be successful with real-time lead data.</h1>
 		
 		$CI->data["title"] = "Demo Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
+		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
 		
-		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
+		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
 		
 		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
@@ -84,7 +84,7 @@ the features they need to be successful with real-time lead data.</h1>
           <h1 class="animated fadeIn slower go">Think we’re a fit?</h1>
           <h2>Are you interested in seeing how Colabo
 works? Schedule a demo with one
-of our customer success representitives.
+of our customer success representatives.
 We will be in-touch shortly after filling
 out the contact form. </h2>
         </div>';
@@ -181,7 +181,7 @@ out the contact form. </h2>
           <h1 class="animated fadeIn slower go">Let’s talk!</h1>
           <h2>Interested in exploring Colabo for your
             team? Schedule a time to talk with one
-            of our customer success representitives.<br>
+            of our customer success representatives.<br>
             We will be in-touch shortly after filling
             out the contact form. </h2>
         </div>';
