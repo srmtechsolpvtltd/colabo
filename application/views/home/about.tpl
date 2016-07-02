@@ -26,7 +26,7 @@
           <div class="col-md-6 pull-right greybg ">
             <h2 class="colorBlack">Contact Us</h2>
             <p>Colabo has offices in the United States and Israel.<br>
-              <span class="colorBlack">Untited States:</span><br>
+              <span class="colorBlack">United States:</span><br>
               751 Laurel Street, Suite 840 <br>
               San Carlos, CA 94070<br>
               <strong>Phone:</strong> +1-650-288-6649<br>
