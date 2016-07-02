@@ -41,7 +41,7 @@ function getTitle($page=NULL){
 		$CI->data["bannerClass"] = '';
 		
 		$CI->data['headerContents'] = '<div class="aboutus inHeader">
-          <h1 class="animated fadeIn slower go">Your sales team is unique. They need a sales platform that is flexable,
+          <h1 class="animated fadeIn slower go">Your sales team is unique. They need a sales platform that is flexible,
             and works with them. Colabo allows you to build a custom sales stack 
             that caters to your team’s needs. </h1>
         </div>';
@@ -73,9 +73,9 @@ the features they need to be successful with real-time lead data.</h1>
 		
 		$CI->data["title"] = "Demo Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
-		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
 		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
@@ -89,10 +89,10 @@ We will be in-touch shortly after filling
 out the contact form. </h2>
         </div>';
         $frm = "'form#form21 input[type=submit]'";
-        $CI->data['headerContents'] .= '<form method="post" name="copyOfWebsite:ContactUsForm-1466538923516" action="https://s1905848637.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('.$frm.');if(s){s.disabled=true;}}},100);return true;" id="form21" class="elq-form" >';
-		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538923516" type="hidden" name="elqFormName"  />
-		<input value="1905848637" type="hidden" name="elqSiteId"  />
-		<input name="elqCampaignId" type="hidden"  />
+        $CI->data['headerContents'] .= '<form method="post" name="Website:DemoRequest" action="https://s1905848637.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('.$frm.');if(s){s.disabled=true;}}},100);return true;" id="form21" class="elq-form" >';
+		$CI->data['headerContents'] .= '<input value="Website:DemoRequest" type="hidden" name="elqFormName"  />
+    <input value="1905848637" type="hidden" name="elqSiteId"  />
+    <input name="elqCampaignId" type="hidden"  />
         <div class="col-md-6 pull-right formdiv">
           <div class="col-md-12">
             <div class="form-group">
@@ -113,6 +113,17 @@ out the contact form. </h2>
               </div>
               <div class="clearfix"></div>
             </div>
+            
+            <div class="form-group">
+              <div class="flabel">
+                <label for="InputName">Email Address</label>
+              </div>
+              <div class="finput">
+                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" " required="required">
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
             <div class="form-group">
               <div class="flabel">
                 <label for="InputName">Company</label>
@@ -124,28 +135,19 @@ out the contact form. </h2>
             </div>
             <div class="form-group">
               <div class="flabel">
-                <label for="InputName">Email</label>
-              </div>
-              <div class="finput">
-                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" " required="required">
-              </div>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group">
-              <div class="flabel">
-                <label for="InputName">Phone</label>
-              </div>
-              <div class="finput">
-                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" " required="required">
-              </div>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group">
-              <div class="flabel">
-                <label for="InputName">Role</label>
+                <label for="InputName">Title</label>
               </div>
               <div class="finput">
                 <input type="text" id="field4" name="title" class="form-control " placeholder=" " required="required">
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="form-group">
+              <div class="flabel">
+                <label for="InputName">Mobile Phone</label>
+              </div>
+              <div class="finput">
+                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" " required="required">
               </div>
               <div class="clearfix"></div>
             </div>
@@ -184,12 +186,12 @@ out the contact form. </h2>
             out the contact form. </h2>
         </div>';
         
-        $frm = "'form#form20 input[type=submit]'";
-        $CI->data['headerContents'] .= '<form method="post" name="copyOfWebsite:ContactUsForm-1466538215075" action="https://s1905848637.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('.$frm.');if(s){s.disabled=true;}}},100);return true;" id="form20" class="elq-form" >';
+        $frm = "'form#form18 input[type=submit]'";
+        $CI->data['headerContents'] .= '<form method="post" name="Website:ConactRequest" action="https://s1905848637.t.eloqua.com/e/f2"  onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('.$frm.');if(s){s.disabled=true;}}},100);return true;" id="form18"  class="elq-form" >';
         
-		$CI->data['headerContents'] .= '<input value="copyOfWebsite:ContactUsForm-1466538215075" type="hidden" name="elqFormName"  />
-		<input value="1905848637" type="hidden" name="elqSiteId"  />
-		<input name="elqCampaignId" type="hidden"  />
+		$CI->data['headerContents'] .= '<input value="Website:ConactRequest" type="hidden" name="elqFormName"  />
+    <input value="1905848637" type="hidden" name="elqSiteId"  />
+    <input name="elqCampaignId" type="hidden"  />
         <div class="col-md-6 pull-right formdiv">
           <div class="col-md-12">
             <div class="form-group">
@@ -210,6 +212,17 @@ out the contact form. </h2>
               </div>
               <div class="clearfix"></div>
             </div>
+            
+            <div class="form-group">
+              <div class="flabel">
+                <label for="InputName">Email Address</label>
+              </div>
+              <div class="finput">
+                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" " required="required">
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
             <div class="form-group">
               <div class="flabel">
                 <label for="InputName">Company</label>
@@ -221,31 +234,23 @@ out the contact form. </h2>
             </div>
             <div class="form-group">
               <div class="flabel">
-                <label for="InputName">Email</label>
-              </div>
-              <div class="finput">
-                <input type="text" id="field2" name="emailAddress" class="form-control " placeholder=" " required="required">
-              </div>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group">
-              <div class="flabel">
-                <label for="InputName">Phone</label>
-              </div>
-              <div class="finput">
-                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" " required="required">
-              </div>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group">
-              <div class="flabel">
-                <label for="InputName">Reason</label>
+                <label for="InputName">Title</label>
               </div>
               <div class="finput">
                 <input type="text" id="field4" name="title" class="form-control " placeholder=" " required="required">
               </div>
               <div class="clearfix"></div>
             </div>
+            <div class="form-group">
+              <div class="flabel">
+                <label for="InputName">Mobile Phone</label>
+              </div>
+              <div class="finput">
+                <input type="text" id="field5" name="mobilePhone" class="form-control " placeholder=" " required="required">
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            
             <div class="form-group">
               <div class="flabel"> &nbsp; </div>
               <div class="finput mb30">
@@ -343,7 +348,7 @@ out the contact form. </h2>
         <h2 class="animated fadeIn slower go">Colabo is a next-generation sales automation platform that sits on top of your CRM, providing increased growth, productivity, and visibility.</h2>
         <div class="hbtns">
           <div class="ec-btn"><a href="'.base_url('home/explore').'" class="btn_green">Explore Colabo</a></div>
-          <div class="tc-btn"><a href="'.base_url('home/demo').'" class="btn_white">Try Colabo</a></div>
+          <div class="tc-btn"><a href="https://colabo.com/signup" class="btn_white">Try Colabo</a></div>
           <div class="clearfix"></div>
         </div>';
 	}

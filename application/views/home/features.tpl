@@ -29,11 +29,11 @@
         <div class="col-md-12 featuresPane">
           <div class="col-md-5 featuresImg"><img src="<?php echo base_url('assets').'/images/multiChannelEngagment_features.png'?>" alt="" class="w100"/></div>
           <div class="col-md-6 padnone pull-right">
-            <h2 class="colorBlack">Multi Channel Engagement</h2>
+            <h2 class="colorBlack">Multi-Channel Engagement</h2>
             <p>For your team to win they need to be agile. Colabo 
-              let’s them be in the right place, with the right message, 
+              lets them be in the right place, with the right message, 
               at the right time. Colabo gives your team the ability
-              to reach and track key interactoins that don’t take 
+              to reach and track key interactions that don’t take 
               place in your CRM.</p>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="col-md-6 padnone pull-right">
             <h2 class="colorBlack">Outbound Sales</h2>
             <p>Modern sales is about building relationships. Colabo 
-              makes this easy with our intellegent propspecting feature, 
+              makes this easy with our intelligent prospecting feature, 
               data enrichment and ability to send social interactions at 
               scale. Colabo works with top social networks including: 
               LinkedIn, Xing, Meetups, & Twitter. </p>
@@ -58,8 +58,8 @@
         </div>
         <div class="col-md-12 featuresPane_abf">
           <h2 class="colorBlack">Before Colabo</h2>
-          <p>Sales stacks are comprised of multiple third-party tools. These tools don’t connect direcly into your CRM, making 
-            tracking impossible, and forcing your team to go outside of your organization’s CRM sacrificing improtant visibility.</p>
+          <p>Sales stacks are comprised of multiple third-party tools. These tools don’t connect directly into your CRM, making 
+            tracking impossible, and forcing your team to go outside of your organization’s CRM sacrificing important visibility.</p>
           <div class="clearfix animated mtop30"><img src="<?php echo base_url('assets').'/images/before_co.png'?>" class="w100"  alt=""/></div>
         </div>
         <div class="col-md-12 featuresPane_abf">
@@ -74,7 +74,7 @@
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="ture" aria-controls="collapseOne"> How do I connect Colabo to my CRM?</h4>
+                <p class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="ture" aria-controls="collapseOne"> How do I connect Colabo to my CRM?</p>
               </div>
               <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
@@ -84,7 +84,7 @@
             </div>
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="heading2">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">Why are the leads from Colabo not being enriched?</h4>
+                <p class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">Why are the leads from Colabo not being enriched?</p>
               </div>
               <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" >
@@ -94,7 +94,7 @@
             </div>
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="heading3">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">Can Colabo integrate with any social platform, or is it limited to LinkedIn, Xing, Twitter and Meetups?</h4>
+                <p class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">Can Colabo integrate with any social platform, or is it limited to LinkedIn, Xing, Twitter and Meetups?</p>
               </div>
               <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" >
@@ -104,7 +104,7 @@
             </div>
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="heading4">
-                <h4 class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Does Colabo allow for creating and customizing templates for email and messaging?</h4>
+                <p class="panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Does Colabo allow for creating and customizing templates for email and messaging?</p>
               </div>
               <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" >
@@ -115,7 +115,7 @@
             </div>
             <div class="panel panel-default ">
               <div class="panel-heading" role="tab" id="heading5">
-                <h4 class="panel-title collapsed " role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">My team uses email as  a major outreach channel, does Colabo connect to email?</h4>
+                <p class="panel-title collapsed " role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">My team uses email as  a major outreach channel, does Colabo connect to email?</p>
               </div>
               <div id="collapse5" class="panel-collapse collapse  in" role="tabpanel" aria-labelledby="heading5">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" >
@@ -126,7 +126,7 @@
           </div>
         </div>
         <div class="aboutCon mtop30 ">
-          <div class="clearfix mb30"><a href="<?php echo base_url('home/demo')?>" class="btn_green">Talk with a Colabo Expert</a></div>
+          <div class="clearfix mb30"><a href="http://www.colabo.com/demorequest" target="_blank" class="btn_green">Talk with a Colabo Expert</a></div>
         </div>
       </div>
     </div>

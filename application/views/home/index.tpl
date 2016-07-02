@@ -35,7 +35,7 @@ rely just on email and phone to initiate contact...</h2>
     <div class="container">
       <div class="cb_features">
        <div class="clearfix"><img src="<?php echo base_url('assets').'/images/crm.png'?>" class="w100"  alt=""/></div>
-        <h2 class="ptop60">Colabo is a platform for enterprise sales teams. It was created for the social selling erra,
+        <h2 class="ptop60">Colabo is a platform for enterprise sales teams. It was created for the social selling era,
 with features that allow your team to reach leads with the right message at the right time.</h2>
         <div class="clearfix  mb30"><a href="<?php echo base_url('home/features')?>" class="btn_blue">Colabo Features</a></div>
         <div class="clearfix"><img src="<?php echo base_url('assets').'/images/leads_new.png'?>" class="w100"  alt=""/></div>

@@ -20,6 +20,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20093218-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 <body>
 <!--Main Nav Start here-->
@@ -37,7 +48,7 @@
             <li><a href="<?php echo base_url('home/features')?>">Features</a></li>
             <li><a href="<?php echo base_url('home/about')?>">Company</a></li>
             <li><a href="<?php echo base_url('home/pricing')?>">Pricing</a></li>
-            <li class="login"><a href="#" class="">Login</a></li>
+            <li class="login"><a href="https://colabo.com/login" class="" target="_blank">Login</a></li>
           </ul>
         </nav>
       </div>
@@ -77,7 +88,7 @@
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">COMPANY</div>
-              <div class="foot-links"> <a href="<?php echo base_url('home/about')?>">About</a> <a href="<?php echo base_url('home/tos')?>">Customers</a> <a href="<?php echo base_url('home/privacy')?>">Legal</a> </div>
+              <div class="foot-links"> <a href="<?php echo base_url('home/about')?>">About</a> <a href="<?php echo base_url('home/tos')?>">Terms</a> <a href="<?php echo base_url('home/privacy')?>">Privacy</a> </div>
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header"> CONTACT </div>
@@ -85,7 +96,7 @@
             </div>
             <div class="col-md-3 col-xs-6 col-sm-3">
               <div class="foot-header">RESOURCES</div>
-              <div class="foot-links"> <a href="http://blog.colabo.com">Blog</a> <a href="<?php echo base_url('home/casestudy')?>">White Papers</a> <a href="<?php echo base_url('home/features#faq')?>">FAQ</a> </div>
+              <div class="foot-links"> <a href="http://blog.colabo.com">Blog</a> <a href="<?php echo base_url('home/casestudy')?>">Case Studies</a> <a href="<?php echo base_url('home/features#faq')?>">FAQ</a> </div>
             </div>
           </div>
         </div>
