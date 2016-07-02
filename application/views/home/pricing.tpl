@@ -69,7 +69,7 @@
           <h2 class="colorBlack font40">Ready to bring Colabo to your organization?</h2>
           <div class="mtop30 mb25">
              <div class="ec-btn"><a href="<?php echo base_url('home/contactus')?>" class="btn_blue">Contact Sales</a></div>
-             <div class="tc-btn"><a href="#-" class="btn_green">Free Trial</a></div>
+             <div class="tc-btn"><a href="https://colabo.com/signup" target="_blank" class="btn_green">Free Trial</a></div>
             <div class="clearfix"></div>
           </div>
         </div>
