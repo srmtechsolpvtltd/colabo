@@ -14,12 +14,9 @@
                   <p>Keep Your CRM Up-To-Date Update Leads with Social Data Notifications of lead profile updates.</p>
                   <h3>Outbound Prospecting</h3>
                   <p>Clip Leads From Social Platforms Intelligent Prospecting</p>
-                  <h3 class="clrLight">Multi-Channel Engagement</h3>
-                  <p class="clrLight">Send Social Messages & Emails Send Bulk Connection Requests Dynamic Templates Activity Notifications</p>
-                  <h3 class="clrLight">Automated Workflows</h3>
-                  <p class="clrLight">Dynamic Workflows for Data Capture Triggered Followup Workflows</p>
+                  
                 </div>
-                <h1>Total: <span>$499 <small> / month</small></span></h1>
+                <h1>Total: <span>$50 <small> / user month</small><h5>ten seat minimum package.</h5></span></h1>
               </li>
               <li>
                 <h2>Custom Enterprise</h2>
@@ -44,15 +41,14 @@
                   <p>Clip Leads From Social Platforms Intelligent Prospecting</p>
                   <h3>Multi-Channel Engagement</h3>
                   <p>Send Social Messages & Emails Send Bulk Connection Requests Dynamic Templates Activity Notifications</p>
-                   <h3 class="clrLight">Automated Workflows</h3>
-                  <p class="clrLight">Dynamic Workflows for Data Capture Triggered Followup Workflows</p>
+                   
                 </div>
-                <h1>Total: <span>$799 <small> / month</small></span></h1>
+                <h1>Total: <span>$80 <small> / user month</small><h5>ten seat minimum package.</h5></span></h1>
               </li>
             </ul>
           </div>
           <!--Pricing  box close-->
-          <h5>*** Display pricing is based on a ten seat minimum package.</h5>
+          
           <h2 class="colorBlack font40">What plan is right for your team?</h2>
           <h2 class="colorBlack">Prospecting</h2>
           <p>Prospecting is for teams who want to reach targeted leads via social media channels and want to use
