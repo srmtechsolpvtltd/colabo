@@ -108,7 +108,6 @@
               </div>
               <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                 <div class="panel-body" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" >
-                  <p>Yes, to customize your template:</p>
                   <p>Yes, you can customize your templates using dynamic fields like first name, last name, company name and any other customized fields taken from social platforms.</p>
                 </div>
               </div>
