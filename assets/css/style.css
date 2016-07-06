@@ -271,7 +271,7 @@ ul.listdata li{ float:left; font-size:24px; color:#8c8c8c; width:100%; padding:1
 .priceWrap .pricingList ul li h1 span {color:#358fd6;}
 .priceWrap .pricingList ul li h1 span small {color:#358fd6;}
 .priceWrap .pricingList ul li h2{margin-bottom:15px; padding:0px; color:#000; text-align: center; margin: 15px 0;}
-.priceWrap .pricingList ul li .priceBox{width:100%; border: solid 2px #358fd6; padding:40px 15px 20px 15px;}
+.priceWrap .pricingList ul li .priceBox{width:100%; border: solid 2px #358fd6; padding:40px 15px 20px 15px;min-height:705px;}
 .priceWrap .pricingList ul li .priceBox p {font-size: 22px;font-weight:300;}
 .priceWrap .pricingList ul li .priceBox h3{ font-size:24px; margin-bottom:15px; padding:0px; color:#000;}
 .priceWrap .pricingList ul li .priceBox h4{ font-size:24px; line-height:36px; color:#eae6e6; margin:0px; padding:0px 0 20px 0;font-weight:400; text-align:left;}
