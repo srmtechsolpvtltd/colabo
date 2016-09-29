@@ -73,9 +73,9 @@ the features they need to be successful with real-time lead data.</h1>
 		
 		$CI->data["title"] = "Demo Colabo - Next-Generation Sales";
 		
-		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['description'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
-		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representatives.';
+		$CI->data['keywords'] = 'Schedule a one on one demo of Colabo with one of our customer success representitives.';
 		
 		$CI->data["navigationCss"] = "innerWrap";
 		$CI->data["bannerClass"] = ' contactusHead';
